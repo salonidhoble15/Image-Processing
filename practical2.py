@@ -12,7 +12,7 @@ import cv2
 # image1 = cv2.imread("/Users/vikas/PBL/flower.jpg")
 # image2 = cv2.imread("/Users/vikas/PBL/flower2.jpg")
 # weightedSum = cv2.addWeighted(image1,0.5,image2,0.5,0)
-# cv2.imshow("Mehak", weightedSum)
+# cv2.imshow("Saloni", weightedSum)
 # if cv2.waitKey(0) & 0xff == 27:
 #    cv2.destroyAllWindows()
 
@@ -22,7 +22,7 @@ import cv2
 # image1 = cv2.imread("/Users/vikas/PBL/flower.jpg")
 # image2 = cv2.imread("/Users/vikas/PBL/flower2.jpg")
 # sub = cv2.subtract(image1, image2)
-# cv2.imshow("Mehak", sub)
+# cv2.imshow("Saloni", sub)
 # if cv2.waitKey(0) & 0xff == 27:
 #  cv2.destroyAllWindows()
 
@@ -32,7 +32,7 @@ import cv2
 # img1 = cv2.imread("/Users/vikas/PBL/flower.jpg")
 # img2 = cv2.imread("/Users/vikas/PBL/flower2.jpg")
 # dest_and = cv2.bitwise_and(img2, img1, mask=None)
-# cv2.imshow("Mehak", dest_and)
+# cv2.imshow("Saloni", dest_and)
 # if cv2.waitKey(0) & 0xff == 27:
 #    cv2.destroyAllWindows()
 
@@ -62,7 +62,7 @@ import cv2
 # img1 = cv2.imread("/Users/vikas/PBL/flower.jpg")
 # img2 = cv2.imread("/Users/vikas/PBL/flower2.jpg")
 # dest_or = cv2.bitwise_or(img2, img1, mask=None)
-# cv2.imshow("Mehak", dest_or)
+# cv2.imshow("Saloni", dest_or)
 #
 # if cv2.waitKey(0) & 0xff == 27:
 #     cv2.destroyAllWindows()
@@ -73,7 +73,7 @@ import cv2
 # img1 = cv2.imread("/Users/vikas/PBL/flower.jpg")
 # img2 = cv2.imread("/Users/vikas/PBL/flower2.jpg")
 # dest_xor = cv2.bitwise_xor(img1, img2, mask=None)
-# cv2.imshow("Mehak", dest_xor)
+# cv2.imshow("Saloni", dest_xor)
 #
 # if cv2.waitKey(0) & 0xff == 27:
 #    cv2.destroyAllWindows()
@@ -88,8 +88,8 @@ img2 = cv2.imread("/Users/vikas/PBL/flower2.jpg")
 dest_not1 = cv2.bitwise_not(img1, mask=None)
 dest_not2 = cv2.bitwise_not(img2, mask=None)
 
-cv2.imshow("MEHAK", dest_not1)
-cv2.imshow("MEHAK", dest_not2)
+cv2.imshow("SALONI", dest_not1)
+cv2.imshow("SALONI", dest_not2)
 
 if cv2.waitKey(0) & 0xff == 27:
     cv2.destroyAllWindows()
