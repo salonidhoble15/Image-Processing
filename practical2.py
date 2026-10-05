@@ -6,7 +6,6 @@ import cv2
 # plt.waitforbuttonpress()
 # plt.close()
 
-
 # import cv2
 # import numpy as np
 # image1 = cv2.imread("/Users/vikas/PBL/flower.jpg")
