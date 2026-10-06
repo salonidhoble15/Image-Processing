@@ -7,7 +7,7 @@ The Image Processing Virtual Lab is a web-based project developed to demonstrate
 The website provides practical demonstrations where users can select sample images or upload their own images and perform different image processing operations using the available controls.
 
 Project Structure
-Mehak_Image_Processing_Systematic/
+Saloni_Image_Processing_Systematic/
 │
 ├── index.html
 │
